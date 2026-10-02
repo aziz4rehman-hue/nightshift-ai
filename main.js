@@ -1,7 +1,7 @@
 // ---- Your contact details: the form sends enquiries here ----
 const CONTACT = {
   email: "",     // e.g. "hello@yourdomain.com"
-  whatsapp: "",  // international format, digits only, e.g. "923001234567"
+  whatsapp: "17018335037",  // international format, digits only, e.g. "923001234567"
 };
 
 const $ = (s) => document.querySelector(s);
