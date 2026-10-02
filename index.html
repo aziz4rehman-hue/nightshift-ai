@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NightShift AI · AI Agents That Never Clock Out</title>
+<meta name="description" content="AI receptionists and booking agents for salons, clinics, gyms and local businesses. Answer every call, book every appointment, day or night.">
+<meta property="og:title" content="NightShift AI · AI Agents That Never Clock Out">
+<meta property="og:description" content="AI receptionists that answer every call and book every appointment, even at 9 PM.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230a0a14'/><path d='M20 6a10 10 0 1 0 6 18A11 11 0 0 1 20 6z' fill='%23a78bfa'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#" class="logo"><span class="moon"></span>NightShift<b>AI</b></a>
+    <nav class="links" id="links">
+      <a href="#agents">Agents</a>
+      <a href="#how">How it works</a>
+      <a href="#industries">Industries</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#contact" class="btn small">Get a free demo</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="glow"></div>
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <div class="kicker"><span class="dot"></span> AI agents for local businesses</div>
+        <h1>Your business answers every call. <span class="grad">Even at 9 PM.</span></h1>
+        <p class="lead">NightShift AI builds AI receptionists that pick up the phone, answer questions and book appointments straight into your calendar, while you focus on the customer in front of you.</p>
+        <div class="cta">
+          <a href="https://aziz4rehman-hue.github.io/chairline/" target="_blank" rel="noopener" class="btn">Call our live demo ↗</a>
+          <a href="#contact" class="btn ghost">Get a demo for your business</a>
+        </div>
+        <ul class="ticks">
+          <li>Set up for your services &amp; prices</li>
+          <li>Free 2-week trial</li>
+          <li>No contracts</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-label="Example call between a customer and the AI receptionist">
+        <div class="callcard">
+          <div class="cc-head">
+            <div class="cc-av">AI</div>
+            <div>
+              <div class="cc-name">Incoming call · Fade &amp; Co.</div>
+              <div class="cc-sub"><span class="live"></span> AI receptionist answering</div>
+            </div>
+            <div class="cc-time" id="ccTime">0:00</div>
+          </div>
+          <div class="cc-body" id="ccBody"></div>
+        </div>
+        <div class="booked" id="booked">
+          <div class="b-ico">✓</div>
+          <div><b>New booking</b><span id="bookedText">Skin Fade · Sat 11:30 AM · Jade</span></div>
+        </div>
+        <div class="sample-note">Example conversation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="problem">
+    <div class="wrap">
+      <h2 class="center">Every missed call is a customer <span class="grad">booking somewhere else</span></h2>
+      <div class="pains">
+        <div class="pain"><div class="p-ico">📵</div><h3>Hands busy, phone ringing</h3><p>You're mid-haircut, mid-treatment, mid-class. The phone rings out and the caller tries the next business on Google.</p></div>
+        <div class="pain"><div class="p-ico">🌙</div><h3>After-hours calls go nowhere</h3><p>Plenty of people only have time to call in the evening, when you're closed and nobody picks up.</p></div>
+        <div class="pain"><div class="p-ico">🔁</div><h3>The same questions, all day</h3><p>"How much is…?" "Are you open Sunday?" "Where are you?" Answering takes time you could be earning in.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENTS -->
+  <section id="agents">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Our agents</div>
+        <h2>AI staff that work every shift</h2>
+        <p>Each agent is set up for your business: your services, prices, staff, hours and tone of voice.</p>
+      </div>
+      <div class="agents">
+        <article class="agent featured">
+          <div class="badge live-b">Live demo</div>
+          <div class="a-ico">📞</div>
+          <h3>AI Phone Receptionist</h3>
+          <p>Answers your phone out loud, books, moves and cancels appointments, answers questions, and texts the customer a confirmation.</p>
+          <ul>
+            <li>Understands "tomorrow afternoon", "anyone is fine", "after 5"</li>
+            <li>Offers the nearest free slot when you're busy</li>
+            <li>Every booking lands on your calendar</li>
+          </ul>
+          <a href="https://aziz4rehman-hue.github.io/chairline/" target="_blank" rel="noopener" class="btn small">Try it now ↗</a>
+        </article>
+        <article class="agent">
+          <div class="badge">On request</div>
+          <div class="a-ico">💬</div>
+          <h3>Website Chat Agent</h3>
+          <p>A chat assistant on your website that answers questions and takes bookings, so visitors don't leave to find a phone number.</p>
+          <ul><li>Trained on your services &amp; FAQs</li><li>Books straight into your calendar</li></ul>
+          <a href="#contact" class="link">Ask about it →</a>
+        </article>
+        <article class="agent">
+          <div class="badge">On request</div>
+          <div class="a-ico">🟢</div>
+          <h3>WhatsApp Booking Agent</h3>
+          <p>Customers message your business on WhatsApp and the agent replies instantly, books them in and sends reminders.</p>
+          <ul><li>Replies in seconds, any hour</li><li>Appointment reminders to cut no-shows</li></ul>
+          <a href="#contact" class="link">Ask about it →</a>
+        </article>
+        <article class="agent">
+          <div class="badge">On request</div>
+          <div class="a-ico">⚙️</div>
+          <h3>Custom Agent</h3>
+          <p>Lead follow-up, order taking, quote requests, review requests. If it's a repetitive conversation, it can probably be automated.</p>
+          <ul><li>Built around how you already work</li><li>Connected to the tools you use</li></ul>
+          <a href="#contact" class="link">Tell us your idea →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW -->
+  <section id="how" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">How it works</div>
+        <h2>Live in days, not months</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="n">1</span><h3>Free demo for your business</h3><p>Send us your services, prices, staff and hours. We set up a demo agent with <em>your</em> business name you can call yourself.</p></li>
+        <li><span class="n">2</span><h3>Two-week free trial</h3><p>We connect it to your phone line and calendar. Start with just the calls you miss, so nothing changes for calls you answer.</p></li>
+        <li><span class="n">3</span><h3>Go live, keep improving</h3><p>Happy? Keep it on a simple monthly plan. We review conversations and keep tuning it for your customers.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section id="industries">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Industries</div>
+        <h2>Built for businesses that run on appointments</h2>
+      </div>
+      <div class="inds">
+        <div class="ind"><span>💈</span>Barbers &amp; salons</div>
+        <div class="ind"><span>🦷</span>Dental &amp; medical clinics</div>
+        <div class="ind"><span>💆</span>Spas &amp; beauty</div>
+        <div class="ind"><span>🏋️</span>Gyms &amp; trainers</div>
+        <div class="ind"><span>🍽️</span>Restaurants</div>
+        <div class="ind"><span>🐾</span>Pet grooming &amp; vets</div>
+        <div class="ind"><span>🔧</span>Repair &amp; home services</div>
+        <div class="ind"><span>📚</span>Tutors &amp; coaching</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="alt">
+    <div class="wrap why">
+      <div>
+        <div class="eyebrow">Why NightShift AI</div>
+        <h2>Honest AI, built for small businesses</h2>
+        <p class="muted">No enterprise sales calls or year-long contracts. A small team that sets things up properly and stays reachable.</p>
+      </div>
+      <div class="why-grid">
+        <div><h3>🎯 Made for you</h3><p>Your services, prices, staff names and the way you talk to customers.</p></div>
+        <div><h3>🗣️ Upfront with callers</h3><p>Your agent tells callers it's an AI assistant. Customers appreciate the honesty.</p></div>
+        <div><h3>🔒 Your data is yours</h3><p>Customer details belong to your business. We store only what the agent needs.</p></div>
+        <div><h3>🤝 Human backup</h3><p>Anything the agent can't handle becomes a message for you or a transfer to your number.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Pricing</div>
+        <h2>Simple plans. Start with a free trial.</h2>
+        <p>Every business is different, so we quote after a 10-minute chat about your call volume and booking system.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Starter</h3>
+          <p class="pdesc">For a single location that misses calls when it's busy.</p>
+          <ul><li>AI Phone Receptionist</li><li>Answers missed &amp; after-hours calls</li><li>Bookings into your calendar</li><li>SMS confirmations</li></ul>
+          <a href="#contact" class="btn ghost" data-plan="Starter">Get a quote</a>
+        </div>
+        <div class="plan pop">
+          <div class="pop-tag">Most popular</div>
+          <h3>Growth</h3>
+          <p class="pdesc">For busy businesses that want every channel covered.</p>
+          <ul><li>Everything in Starter</li><li>Answers all calls, 24/7</li><li>Website chat or WhatsApp agent</li><li>Appointment reminders</li><li>Monthly conversation review</li></ul>
+          <a href="#contact" class="btn" data-plan="Growth">Get a quote</a>
+        </div>
+        <div class="plan">
+          <h3>Custom</h3>
+          <p class="pdesc">Multiple locations, special workflows or your own systems.</p>
+          <ul><li>Multiple locations &amp; numbers</li><li>Custom integrations</li><li>Custom agents</li><li>Priority support</li></ul>
+          <a href="#contact" class="btn ghost" data-plan="Custom">Talk to us</a>
+        </div>
+      </div>
+      <p class="center muted small">All plans: free 2-week trial · one-time setup fee · cancel any time</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="alt">
+    <div class="wrap narrow">
+      <div class="sec-head"><div class="eyebrow">FAQ</div><h2>Questions owners ask us</h2></div>
+      <details><summary>Will customers know they're talking to an AI?</summary><p>Yes. The agent introduces itself as your AI assistant. It's the honest approach, it's required in many places, and in practice callers mostly care that someone picked up and booked them in.</p></details>
+      <details><summary>Does it work with my booking system?</summary><p>We can connect it to Google Calendar and to many salon and clinic booking systems. Tell us which one you use and we'll confirm before you commit to anything.</p></details>
+      <details><summary>Do I need a new phone number?</summary><p>No. Most businesses keep their number and forward calls to the agent, either all calls or only the ones nobody answers.</p></details>
+      <details><summary>What languages can it speak?</summary><p>The agent can work in many languages, including English, Urdu, Hindi, Arabic and Spanish. We'll test your language in the demo before you go live.</p></details>
+      <details><summary>What happens if it can't answer something?</summary><p>It takes a message and sends it to you, or transfers the caller to your number. It never makes things up about your prices or policies.</p></details>
+      <details><summary>How long does setup take?</summary><p>A demo with your business details takes a day. Going live depends on your phone and booking setup, usually within a week.</p></details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <div class="eyebrow">Free demo</div>
+        <h2>Hear your own AI receptionist</h2>
+        <p class="muted">Tell us about your business. We'll set up a demo agent with your name, services and prices, and send you a link to call it.</p>
+        <div class="direct" id="direct"></div>
+      </div>
+      <form class="form" id="form">
+        <div class="row">
+          <label>Your name<input name="name" required autocomplete="name"></label>
+          <label>Business name<input name="business" required autocomplete="organization"></label>
+        </div>
+        <div class="row">
+          <label>Type of business
+            <select name="type">
+              <option>Barber / salon</option><option>Clinic / dentist</option><option>Spa / beauty</option>
+              <option>Gym / trainer</option><option>Restaurant</option><option>Other</option>
+            </select>
+          </label>
+          <label>Interested in
+            <select name="plan" id="planSel">
+              <option>Not sure yet</option><option>Starter</option><option>Growth</option><option>Custom</option>
+            </select>
+          </label>
+        </div>
+        <label>Phone or email<input name="reach" required></label>
+        <label>Anything we should know? <span class="opt">(optional)</span><textarea name="msg" rows="3" placeholder="e.g. we miss lots of calls on Saturdays, we use Fresha…"></textarea></label>
+        <button class="btn full" type="submit">Request my free demo</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a href="#" class="logo"><span class="moon"></span>NightShift<b>AI</b></a>
+    <p>AI agents that never clock out.</p>
+    <p class="muted small">© <span id="year"></span> NightShift AI</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
