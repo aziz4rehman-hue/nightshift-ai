@@ -18,7 +18,7 @@ document.querySelectorAll("#links a").forEach((a) => a.addEventListener("click",
 const io = new IntersectionObserver((entries) => entries.forEach((e) => {
   if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
 }), { threshold: 0.12 });
-document.querySelectorAll(".pain, .agent, .steps li, .ind, .why-grid > div, .plan, details, .sec-head")
+document.querySelectorAll(".pain, .agent, .steps li, .why-grid > div, .plan, details, .sec-head")
   .forEach((el) => { el.classList.add("reveal"); io.observe(el); });
 
 // hero: an example call that plays on a loop
@@ -59,7 +59,9 @@ async function play() {
       await sleep(who === "ai" ? 900 : 700);
       typing.classList.remove("typing");
       typing.textContent = text;
+      window.orbLevel = who === "ai" ? 1 : 0.15; // the orb "speaks" with the AI
       await sleep(900 + text.length * 22);
+      window.orbLevel = 0.15;
     }
     booked.classList.add("show");
     await sleep(4500);
